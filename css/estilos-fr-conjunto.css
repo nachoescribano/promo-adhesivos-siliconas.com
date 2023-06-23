@@ -1,0 +1,28 @@
+.nuevas-gamas-index{
+    line-height: normal;
+}
+
+
+
+@media(max-width:759px){
+
+    .product-header-movil{
+        line-height:30px;
+    }
+
+    .titulo-hybrid-movil, .titulo-silicona-movil{
+        line-height:30px;
+    }
+}
+
+
+
+@media(max-width:380px){
+
+    .titulo-silicona-movil, .titulo-hybrid-movil{
+        font-size: 30px;
+    }
+}
+    
+    
+

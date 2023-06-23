@@ -1,0 +1,103 @@
+.nuevas-gamas-index{
+    line-height: normal;
+}
+
+.nuevas-gamas-index{
+    font-size: 50px;
+}
+
+/*Responsive*/
+@media(max-width:1200px){
+    .product-header{
+        font-size: 30px;
+    }
+    .nuevas-gamas-index{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:1000px){
+    .product-header{
+        font-size: 25px;
+    }
+   
+}
+
+@media(max-width:900px){
+    .product-header{
+        font-size: 22px;
+    }
+   
+    .nuevas-gamas-index{
+        font-size: 40px;
+    }
+
+    .text-description{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:759px){
+
+
+
+    .nuevas-gamas-index{
+        padding-bottom: 10px;
+        font-size: 50px;
+    }
+    .product-header-movil{
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width:583px){
+    .nuevas-gamas-index{
+        font-size: 35px;
+    }
+    .product-header-movil{
+        font-size: 18px;
+    }
+    .titulo-hybrid-movil{
+        font-size: 16px;
+    }
+
+    .text-description{
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width:380px){
+   
+
+
+    .titulo-silicona-movil{
+        font-size: 18px;
+    }
+
+    .titulo-hybrid-movil{
+        font-size: 13px;
+    }
+
+
+    .nuevas-gamas-index{
+        font-size: 24px;
+    }
+
+    .text-description h3{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .btn{
+        font-size: 14px;
+   
+    }
+
+   
+}
+    
+    
+
+

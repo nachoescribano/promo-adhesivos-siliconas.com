@@ -1,0 +1,235 @@
+.version-movil{
+    display: none;
+}
+
+.version-movil-flex{
+    display: none;
+}
+
+.version-escritorio{
+
+}
+
+.product-header-movil {
+    display: none;
+}
+/*Zonas*/
+
+.zona-azul{
+    background-color:#0F4C81;
+    padding:20px;
+}
+
+.zona-blanca{
+    background-color: white;
+    padding:20px;
+}
+
+
+#logotipo-movil{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 68px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    z-index: 99;
+    background-color: white;
+    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+}
+
+#logotipo-movil img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 136px;
+    z-index: 99;
+}
+
+
+
+/*Titulos*/
+.nuevas-gamas-index{
+  
+    padding-top: 88px;
+    padding-bottom: 66px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: -2px;
+}
+
+.product-header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 2.6rem;
+}
+
+
+/*Imagenes*/
+
+.bodegon{
+    max-height: 379px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Fondos*/
+.bg-white{
+    background-color:white;
+}
+
+.bg-blue-index{
+    background-color:#0F4C81;
+}
+
+/*Textos*/
+.text-blue-index{
+    color: #0F4C81;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-description h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+
+/*Override Boostrap*/
+
+.btn{
+    border-radius: 0px;
+    padding-left: 34px;
+    padding-right: 34px;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+    padding:10px 20px 10px 20px;
+}
+
+.btn-primary{
+    background-color: #0F4C81;
+    border-color: #0F4C81;
+}
+
+.btn-light{
+    background-color: white;
+}
+
+
+/*Responsive*/
+@media(max-width:900px){
+    .nuevas-gamas-index{
+        padding-bottom: 10px;
+        font-size: 55px;
+    }
+}
+@media(max-width:759px){
+
+    .version-escritorio{
+        display: none;
+    }
+
+    .version-movil-flex{
+        display: flex;
+    }
+    
+    .logotipo{
+        display: none;
+    }
+    .version-movil{
+        display: block;
+    }
+
+    .nuevas-gamas-index{
+        padding-bottom: 10px;
+        font-size: 40px;
+    }
+
+    .bodegon{
+        margin-top: 10px;
+    }
+
+    .product-header{
+        display: none;
+    }
+    .product-header-movil{
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 40px;
+        line-height:25px;
+    }
+
+    .titulo-hybrid-movil, .titulo-silicona-movil{
+        font-size: 25px;
+        line-height:35px;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .col-12{
+        padding: 0px;
+    }
+
+    .text-description h3{
+        font-size: 20px;
+
+    }
+}
+
+@media(max-width:583px){
+    .container-fluid{
+    	padding: 0 10px;
+    }
+    .nuevas-gamas-index{
+        font-size: 30px;
+    }
+
+    .btn{
+        font-size: 15px;
+        padding:10px 20px 10px 20px;
+    }
+}
+
+
+@media(max-width:380px){
+   
+    .product-header-movil{
+        font-size: 16px;
+    }
+
+    .titulo-hybrid-movil, .titulo-silicona-movil{
+        font-size: 23px;
+        line-height:25px;
+    }
+
+    .nuevas-gamas-index{
+        font-size: 24px;
+    }
+
+    .text-description h3{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .btn{
+        font-size: 14px;
+   
+    }
+
+   
+}
+    
+    
+
+
