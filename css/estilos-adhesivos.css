@@ -1,3 +1,7 @@
+:root {
+	--color-primary: #003A6A;
+}
+
 body {
 	color: white;
 }
@@ -5,13 +9,15 @@ body {
 .navbar-light .navbar-nav .nav-link {
 	color: #0F4881;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
+	font-weight: 700;
 	font-size: 15px;
 	line-height: 1rem;
 	text-align: center;
 }
 
-
+.navbar-ms {
+	max-width: 1250px;
+}
 
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #061A2E;
@@ -77,7 +83,7 @@ table tr {
 	margin-top: 2px;
 	border-radius: 0px;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
+	font-weight: 700;
 	font-size: 15px;
 	line-height: 1rem;
 }
@@ -307,4 +313,20 @@ a.scroll-top i {
 
 ul{
 	list-style: disc;
+}
+
+/* Index Academy */
+.index-academy__section {
+	padding: 100px 0;
+}
+
+.index-academy__title {
+	color: var(--color-primary);
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.index-academy__body {
+	color: var(--color-primary);
+	text-align: center;
+	margin-bottom: 3rem;
 }
