@@ -1,3 +1,7 @@
+:root {
+	--color-primary: #003A6A;
+}
+
 body {
 	color: white;
 }
@@ -500,4 +504,25 @@ a.scroll-top i {
 
 ul{
 	list-style: disc;
+}
+
+/* Index Academy */
+.index-academy__section {
+	padding: 100px 0;
+}
+
+.index-academy__title {
+	color: var(--color-primary);
+	text-align: center;
+	margin-bottom: 1rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-style: normal;
+	
+}
+.index-academy__body {
+	color: var(--color-primary);
+	text-align: center;
+	margin-bottom: 3rem;
+	font-size: 1rem;
 }
